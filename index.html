@@ -12,14 +12,19 @@
     <link rel="stylesheet" href="skins.css">
     <style type="text/css" media="screen">
       html { font-family: avenir, 'avenir next', helvetica, arial, sans-serif; width: 100%; height: 100%; }
-      body { max-width: 64em; margin-right: auto; margin-left: auto; }
+      body { max-width: 64em; margin-right: auto; margin-left: auto; box-sizing: border-box;}
       div { padding: .75em .25em; float: left; width: 50%; box-sizing: border-box; overflow: hidden; white-space: nowrap; font-size: 12px; }
     </style>
   </head>
   <body>
+    <header style="padding: 1em;">
     <h1>Skins</h1>
-    <p>Tack these classes onto any element to set text color or background color. Mix and match to your hearts content.</p>
-    <h2>Background colors</h2>
+    <p>Tack these classes onto any element to set text color or background color. Mix and match to your hearts content. </p><p>2.2k minified and gzipped. 11k uncompressed. </p>
+      <h2 style="font-size: 14px; font-weight: 500; margin-top:1.25em;">Combine classes like this</h2>
+      <code>&lt;p class="bg-navy aqua"&gt;Some text&lt;/p&gt;</code>
+      <p class="bg-navy aqua" style="padding: 1em;">Some text</p>
+    </header>
+    <h2 style="padding-left:1em;">Background colors</h2>
     <main style="overflow: hidden;">
       <div class="bg-pink"><code>.bg-pink</code></div>
       <div class="bg-lightpink "><code>.bg-lightpink </code></div>
@@ -162,7 +167,7 @@
       <div class="bg-darkslategray "><code>.bg-darkslategray </code></div>
       <div class="bg-black "><code>.bg-black </code></div>
 
-      <h2 style="float:left; width: 100%;">Text Colors</h2>
+      <h2 style="float:left; width: 100%;padding-left:1em;">Text Colors</h2>
       <div class="blk "><code>.blk </code></div>
       <div class="dk-gry "><code>.dk-gry </code></div>
       <div class="md-gry "><code>.md-gry </code></div>
