@@ -1,12 +1,6 @@
 # CSS SKINS
-
-  Mobile-first classes for css-skins.
-  Set the desired css-skins on any element for any breakpoint.
-  Base class names are namespaced across three breakpoints:
-
-*  -ns = not-small (covers everything larger than mobile)
-*  -m  = medium
-*  -l  = large
+Classes for skinning elements. Set foreground and background colors. 
+See demo here : http://mrmrs.io/css-skins
 
 ## Install
 ```
