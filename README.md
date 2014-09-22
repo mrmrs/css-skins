@@ -3,13 +3,19 @@ Classes for skinning elements. Set foreground and background colors.
 See demo here : http://mrmrs.io/css-skins
 
 ## Install
+Grab the css partial from github and include it in your project or alternatively
+you can install it via npm:
 ```
 npm install --save-dev css-skins
 ```
-or download the css on github and include in your project.
+View on [npm](https://www.npmjs.org/package/css-skins)
+
 
 ## File Size
 
+11K skins.css
+9.4K09 skins.min.css
+-rw-r--r--  1    9.4K Jul 16 21:09 skins.min.min.css
 
 ## The Code
 ```
