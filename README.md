@@ -14,8 +14,9 @@ View on [npm](https://www.npmjs.org/package/css-skins)
 ## File Size
 
 11K skins.css
-9.4K09 skins.min.css
--rw-r--r--  1    9.4K Jul 16 21:09 skins.min.min.css
+9.4K09 skins.min.css 
+2minified and gzipped
+
 
 ## The Code
 ```
