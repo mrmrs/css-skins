@@ -1,7 +1,7 @@
 {
   "name": "css-skins",
   "style": "skins.css",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "homepage": "http://github.com/mrmrs/css-skins",
   "description": "Css module of single purpose classes for skins",
   "keywords": [
